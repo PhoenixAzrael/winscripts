@@ -1,0 +1,7 @@
+New-PSDrive -Name "G" -Root "\\arrakis\games" -Persist -PSProvider "FileSystem"
+New-PSDrive -Name "H" -Root "\\arrakis\christian" -Persist -PSProvider "FileSystem"
+New-PSDrive -Name "M" -Root "\\arrakis\musix" -Persist -PSProvider "FileSystem"
+New-PSDrive -Name "R" -Root "\\arrakis\root" -Persist -PSProvider "FileSystem"
+New-PSDrive -Name "T" -Root "\\arrakis\abcTeam" -Persist -PSProvider "FileSystem"
+New-PSDrive -Name "U" -Root "\\arrakis\upload" -Persist -PSProvider "FileSystem"
+New-PSDrive -Name "Z" -Root "\\arrakis\data" -Persist -PSProvider "FileSystem"

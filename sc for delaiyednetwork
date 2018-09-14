@@ -1,0 +1,2 @@
+sc config fdphost start= delayed-auto
+sc config fdrespub start= delayed-auto

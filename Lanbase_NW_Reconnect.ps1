@@ -1,7 +1,7 @@
-New-PSDrive -Name "G" -Root "\\arrakis\games" -Persist -PSProvider "FileSystem"
-New-PSDrive -Name "H" -Root "\\arrakis\christian" -Persist -PSProvider "FileSystem"
-New-PSDrive -Name "M" -Root "\\arrakis\musix" -Persist -PSProvider "FileSystem"
-New-PSDrive -Name "R" -Root "\\arrakis\root" -Persist -PSProvider "FileSystem"
-New-PSDrive -Name "T" -Root "\\arrakis\abcTeam" -Persist -PSProvider "FileSystem"
-New-PSDrive -Name "U" -Root "\\arrakis\upload" -Persist -PSProvider "FileSystem"
-New-PSDrive -Name "Z" -Root "\\arrakis\data" -Persist -PSProvider "FileSystem"
+New-PSDrive -Name "G" -PSProvider FileSystem -Root "\\arrakis\games" -Persist
+New-PSDrive -Name "H" -PSProvider FileSystem -Root "\\arrakis\root" -Persist
+New-PSDrive -Name "M" -PSProvider Filesystem -Root "\\arrakis\musix" -Persist
+New-PSDrive -Name "R" -PSProvider Filesystem -Root "\\arrakis\root" -Persist
+New-PSDrive -Name "T" -PSProvider Filesystem -Root "\\arrakis\abcTeam" -Persist
+New-PSDrive -Name "U" -PSProvider Filesystem -Root "\\arrakis\upload" -Persist
+New-PSDrive -Name "Z" -PSProvider Filesystem -Root "\\arrakis\data" -Persist

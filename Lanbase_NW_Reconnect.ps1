@@ -1,4 +1,4 @@
-Get-PSDrive G, H, M, R, T, U, Z | Remove-PSDrive
+Get-PSDrive G, H, M, R, T, U, V, Z | Remove-PSDrive
 New-PSDrive -Name "G" -PSProvider FileSystem -Root "\\arrakis\games" -Persist -Scope Global
 New-PSDrive -Name "H" -PSProvider FileSystem -Root "\\arrakis\christian" -Persist -Scope Global
 New-PSDrive -Name "M" -PSProvider Filesystem -Root "\\arrakis\musix" -Persist -Scope Global

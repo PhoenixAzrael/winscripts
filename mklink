@@ -1,0 +1,11 @@
+# iTunes Classic
+mklink /d "C:\Users\chris\AppData\Roaming\Apple Computer\MobileSync" \\arrakis\data\Backup\MobileSync
+
+# iTunes MS Store
+mklink /d C:\Users\chris\Apple\MobileSync \\arrakis\data\Backup\MobileSync
+
+# Steam Backup
+mklink /d "C:\Program Files (x86)\Steam\Backups" \\arrakis\games\Steam
+
+# Signature
+mklink /d C:\Users\chris\AppData\Roaming\Microsoft\Signatures "C:\Users\chris\OneDrive - A1 Group\Signatures"

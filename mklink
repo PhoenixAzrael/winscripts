@@ -9,3 +9,6 @@ mklink /d "C:\Program Files (x86)\Steam\Backups" \\arrakis\games\Steam
 
 # Signature
 mklink /d C:\Users\chris\AppData\Roaming\Microsoft\Signatures "C:\Users\chris\OneDrive - world-direct.at\Signatur"
+
+# Fix Foto
+mklink /d "c:\Users\christian.brueckner" "C:\Users\chris"
